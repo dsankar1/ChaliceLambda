@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "api_handler_name": "pnglabeller-dev",
+    "api_handler_arn": "arn:aws:lambda:us-east-1:799301471030:function:test-dev",
+    "lambda_functions": {},
+    "backend": "api",
+    "chalice_version": "1.1.0",
+    "rest_api_id": "outn5uuv72",
+    "api_gateway_stage": "api",
+    "region": "us-east-1"
+  }
+}

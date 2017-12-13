@@ -1,0 +1,44 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "polly:SynthesizeSpeech"
+      ],
+      "Resource": [
+        "*"
+      ],
+      "Sid": "2ff3a929b08b4100ac89eee7eca6e822"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "rekognition:DetectLabels"
+      ],
+      "Resource": [
+        "*"
+      ],
+      "Sid": "d76c5ba8e9794bd9b57409b3b86a470e"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:PutObject"
+      ],
+      "Resource": [
+        "*"
+      ],
+      "Sid": "cf6b0b1e4a1845c2a0347778c7039c0c"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+      ],
+      "Resource": "arn:aws:logs:*:*:*"
+    }
+  ]
+}
